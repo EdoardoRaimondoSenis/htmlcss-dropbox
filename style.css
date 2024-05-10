@@ -94,3 +94,75 @@ nav div a {
 .leftimg img {
     width: 670px;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    text-align: left;
+}
+
+#titlemain {
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.fatturazione {
+    display: block;
+    padding: 15px 0;
+}
+
+.fatturazione > span {
+    padding-right: 15px;
+}
+
+input {
+    margin: 0;
+}
+
+.struttpiani {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.struttpiani > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+}
+
+.titlepiano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(128, 128, 128, 0.358);
+    border-style: solid;
+    border-bottom: none;
+    border-width: 2px;
+    width: 270px;
+    height: 40px;
+}
+
+.titlepiano img {
+    width: 20px;
+    padding: 5px;
+}
+
+.piano {
+    width: 250px;
+    height: 800px;
+    border-color: rgba(128, 128, 128, 0.358);
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 20px;
+    
+}
+
+.cadenza {
+    color: rgba(128, 128, 128, 0.353);
+    padding: 30px;
+}
