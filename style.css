@@ -298,3 +298,27 @@ input {
     color: white;
     transition: 500ms;
 }
+
+#titleop {
+    display: flex;
+    justify-content: flex-start;
+    width: 965px;
+}
+
+.opdropbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 1100px;
+    margin-bottom: 150px;
+}
+
+.opcella {
+    display: flex;
+    flex-direction: column;
+    width: calc(915px / 3);
+    height: calc(1100px / 2);
+    margin: 15px;
+}
