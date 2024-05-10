@@ -176,12 +176,6 @@ input {
     margin-top: 50px;
 }
 
-.dettpiano span {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 5px;
-}
-
 .zeromar {
     margin: 20px 10px 5px 0;
 }
@@ -210,6 +204,55 @@ input {
     margin-top: 72px;
 }
 
-.inlinea {
-    margin-top: 28px;
+
+.enterprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(128, 128, 128, 0.358);
+    border-style: solid;
+    border-bottom: none;
+    border-width: 2px;
+    margin: 40px 29px 0 0;
+    width: 938px;
+    height: 40px;
+}
+
+.enterprise img {
+    width: 20px;
+    padding: 5px;
+}
+
+.teamenter {
+    display: flex;
+    border-color: rgba(128, 128, 128, 0.358);
+    border-style: solid;
+    border-width: 2px;
+    margin: 0 29px 100px 0;
+    width: 898px;
+    height: 200px;
+    padding: 20px;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+}
+
+.space h2 {
+    margin: 10px 0 15px 0;
+}
+
+.space p {
+    margin-top: 50px;
+}
+
+#contenterprise {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: mediumblue;
+    text-align: center;
+    border-radius: 3px;
+    width: 200px;
 }
