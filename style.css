@@ -13,20 +13,29 @@ header nav {
     align-items: center;
     width: 100%;
     height: 80px;
+    z-index: 999;
     background-color: white;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgba(128, 128, 128, 0.358);
 }
 
-nav div {
+.navsx {
     display: flex;
     align-items: center;
 }
 
-.navimg {
+nav div img {
     width: 110px;
+    height: 23px;
     padding: 15px;
+}
+
+nav a:hover {
+    border-bottom-style: solid;
+    border-color: rgb(0, 0, 0);
+    transition: 100ms;
+    border-bottom-width: 3px;
 }
 
 a {
@@ -34,7 +43,7 @@ a {
 }
 
 nav div a {
-    padding: 15px;
+    padding: 15px 15px 27.2px 15px;
     color: rgb(101, 101, 101);
 }
 
@@ -45,6 +54,7 @@ nav div a {
     margin-right: 10px;
     margin-left: 8px;
     border-radius: 2px;
+    border-bottom: none;
 }
 
 #headertwo {
@@ -193,6 +203,10 @@ input {
     background-color: mediumblue;
     margin: 50px 0 30px 0;
     border-radius: 3px;
+}
+
+.mar {
+    margin-top: 72px;
 }
 
 .textsi {
@@ -347,5 +361,96 @@ input {
 }
 
 .contuni {
+    display: flex;
+    width: 100%;
+    height: 427.88px;
+}
 
+.colunisx {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
+    height: calc(400px / 2);
+}
+
+.colunicen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 37%;
+    height: 375.76px;
+    padding: 40px;
+    background-color: rgba(211, 211, 211, 0.388);
+}
+
+.colunicen img {
+    width: 200px;
+}
+
+.colunicen p {
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.colunidx {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
+    height: calc(400px / 2);
+}
+
+.celleuni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: calc(100% / 2);
+    height: 227.88px;
+}
+
+.celleuni:hover {
+    box-shadow: inset 0px 0px 0px 9px rgba(255, 255, 255, 0.496);
+    transition: 0.5s;
+}
+
+.verdino {
+    background-color: rgba(50, 205, 50, 0.664);
+}
+
+.bordeaux {
+    background-color: rgb(77, 0, 0);
+}
+
+.celeste {
+    background-color: dodgerblue;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.rossoscuro {
+    background-color: rgb(209, 0, 0);
+}
+
+.celestino {
+    background-color: lightsteelblue;
+}
+
+.blu {
+    background-color: rgb(0, 0, 96);
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.celleuni img {
+    width: 150px;
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(46deg) brightness(103%) contrast(106%);
 }
