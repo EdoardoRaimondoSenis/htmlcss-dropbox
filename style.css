@@ -494,17 +494,11 @@ input {
     max-width: 908.2px;
 }
 
-
 .conttitolodomande {
     display: flex;
     justify-content: flex-start;
     font-size: 35px;
     margin-top: 80px;
-}
-
-.hrdomande {
-    display: flex;
-    justify-content: center;
 }
 
 .domanda {
@@ -537,10 +531,6 @@ input {
     position: sticky;
     display: block;
 }
-
-
-
-
 
 footer {
     display: flex;
