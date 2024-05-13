@@ -454,3 +454,30 @@ input {
     width: 150px;
     filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(46deg) brightness(103%) contrast(106%);
 }
+
+.dropboxbus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: lightsteelblue;
+}
+
+.bush {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropboxbus h1 {
+    color: rgb(77, 0, 0);
+    font-size: 35px;
+    margin: 0 120px 0 0;
+}
+
+.dropboxbus a {
+    padding: 5px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
